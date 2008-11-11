@@ -1,6 +1,9 @@
-= gitjour
+== gitjour
 
 * http://github.com/chad/gitjour
+
+* You're looking at the massively refactored version from Railscamp 3, hopefully we'll get it merged in with Chad Fowler's soon.
+* http://github.com/lachlanhardy/gitjour
 
 == DESCRIPTION:
 
@@ -14,6 +17,11 @@ Automates DNSSD-powered serving and cloning of git repositories.
 
   % gitjour serve project_dir [name_to_advertise_as]
   % gitjour list
+  % gitjour search <string>
+  % gitjour clone
+  % gitjour remote
+  
+  Type 'gitjour' for more details
 
 == REQUIREMENTS:
 
@@ -22,6 +30,13 @@ Automates DNSSD-powered serving and cloning of git repositories.
 == INSTALL:
 
 * sudo gem install gitjour
+
+== Testing
+
+How to test from the console:
+
+irb -r 'lib/gitjour/application'
+> Gitjour::Application.run "list"
 
 == LICENSE:
 
@@ -47,3 +62,4 @@ IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
 CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
 TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
 SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+

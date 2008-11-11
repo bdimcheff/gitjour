@@ -184,5 +184,6 @@ module Gitjour
   end
 end
 
+$:.unshift(File.dirname(__FILE__))
 
-
+require 'gitjour/application'

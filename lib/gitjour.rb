@@ -1,4 +1,9 @@
-require 'rubygems'
+begin
+  require 'minigems'
+rescue LoadError
+  require 'rubygems'
+end
+
 require 'dnssd'
 require 'set'
 
@@ -90,7 +95,7 @@ module Gitjour
       end
 
       def help
-        puts "Gitjour #{Gitjour::VERSION::STRING}"
+        puts "Gitjour #{Gitjour::VERSION}"
         puts "Serve up and use git repositories via Bonjour/DNSSD."
         puts "\nUsage: gitjour <command> [args]"
         puts

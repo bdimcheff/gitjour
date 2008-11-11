@@ -1,3 +1,1 @@
-$:.unshift(File.dirname(__FILE__))
-
-require 'gitjour/application'
+require File.join(File.dirname(__FILE__), 'gitjour', 'application')

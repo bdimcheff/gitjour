@@ -9,7 +9,7 @@ Gem::Specification.new do |s|
   s.email = ["chad@chadfowler.com", "evan@fallingsnow.net", "rich@example.com"]
   s.executables = ["gitjour"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt"]
-  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "bin/gitjour", "lib/gitjour/application.rb"]
+  s.files = ["History.txt", "Manifest.txt", "README.markdown", "bin/gitjour", "lib/gitjour.rb", "lib/gitjour/application.rb", "lib/gitjour/version.rb"]
   s.has_rdoc = true
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]

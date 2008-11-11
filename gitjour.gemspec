@@ -3,20 +3,19 @@ Gem::Specification.new do |s|
   s.version = "8.1.0"
 
   s.required_rubygems_version = Gem::Requirement.new(">= 0") if s.respond_to? :required_rubygems_version=
-  s.authors = ["Chad Fowler", "Evan Phoenix", "Rich Kilmer"]
-  s.date = %q{2008-10-10}
+  s.authors = ["Chad Fowler", "Evan Phoenix", "Rich Kilmer, Lachlan Hardy, Daniel Neighman, Mike Bailey, Tim Lucas, Ben Schwarz"]
+  s.date = %q{2008-06-17}
   s.default_executable = %q{gitjour}
   s.email = ["chad@chadfowler.com", "evan@fallingsnow.net", "rich@example.com"]
   s.executables = ["gitjour"]
   s.extra_rdoc_files = ["History.txt", "Manifest.txt"]
-  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "Rakefile", "bin/gitjour", "lib/gitjour.rb", "test/test_gitjour.rb", "test/test_helper.rb"]
+  s.files = ["History.txt", "Manifest.txt", "README.rdoc", "bin/gitjour", "lib/gitjour/application.rb"]
   s.has_rdoc = true
   s.rdoc_options = ["--main", "README.txt"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{gitjour}
   s.rubygems_version = %q{1.2.0}
   s.summary = %q{Serve git and advertise with bonjour}
-  s.test_files = ["test/test_gitjour.rb", "test/test_helper.rb"]
 
   if s.respond_to? :specification_version then
     current_version = Gem::Specification::CURRENT_SPECIFICATION_VERSION

@@ -1,4 +1,9 @@
-require 'rubygems'
+begin
+  require 'minigems'
+rescue LoadError
+  require 'rubygems'
+end
+
 require 'dnssd'
 require 'set'
 require 'socket'

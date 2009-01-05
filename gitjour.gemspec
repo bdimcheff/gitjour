@@ -11,7 +11,7 @@ Gem::Specification.new do |s|
   s.extra_rdoc_files = ["History.txt", "Manifest.txt"]
   s.files = ["History.txt", "Manifest.txt", "README.markdown", "bin/gitjour", "lib/gitjour.rb", "lib/gitjour/application.rb", "lib/gitjour/version.rb"]
   s.has_rdoc = true
-  s.rdoc_options = ["--main", "README.txt"]
+  s.rdoc_options = ["--main", "README.markdown"]
   s.require_paths = ["lib"]
   s.rubyforge_project = %q{gitjour}
   s.rubygems_version = %q{1.2.0}

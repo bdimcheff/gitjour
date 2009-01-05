@@ -102,7 +102,7 @@ module Gitjour
           end
         end
         child = fork {
-          exec "git-daemon --verbose --export-all --port=#{port} --base-path=\"#{path}\" --base-path-relaxed"
+          exec "git daemon --verbose --export-all --port=#{port} --base-path=\"#{path}\" --base-path-relaxed"
         }
         Process.wait(child)
       end

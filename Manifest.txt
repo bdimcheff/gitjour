@@ -4,5 +4,7 @@ README.rdoc
 Rakefile
 bin/gitjour
 lib/gitjour.rb
+lib/gitjour/application.rb
+lib/gitjour/version.rb
 test/test_gitjour.rb
 test/test_helper.rb
